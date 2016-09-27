@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+     <data>
+        <template id="assets_frontend" inherit_id="website.assets_frontend" name="My style Pepe">
+            <xpath expr="." position="inside">
+                <link rel='stylesheet' href='/odoo_globaldiet/static/src/js/llamada_blog_jose.js'/>
+	    </xpath>
+        </template>
+  </data>
+</openerp>
