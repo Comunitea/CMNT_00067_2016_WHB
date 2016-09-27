@@ -10,16 +10,21 @@
     'license': 'AGPL-3',
     'depends': [
         'base',
+        'point_of_sale',
     ],
     'contributors': [
         "Comunitea ",
         "Javier Colmenero <javier@comunitea.com>"
     ],
     "data": [
+        'views/templates.xml',
     ],
     "demo": [
     ],
     'test': [
+    ],
+    'qweb': [
+        'static/src/xml/view_meetings.xml',
     ],
     "installable": True
 }
