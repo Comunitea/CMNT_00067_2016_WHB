@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
      <data>
-        <template id="assets_frontend" inherit_id="website.assets_frontend" name="My style Pepe">
+        <template id="assets_backend" inherit_id="web.assets_backend" name="My style Pepe">
             <xpath expr="." position="inside">
-                <link rel='stylesheet' href='/odoo_globaldiet/static/src/js/llamada_blog_jose.js'/>
+		<script type="text/javascript" src="/odoo_globaldiet/static/src/js/llamada_blog_jose.js"></script>
 	    </xpath>
         </template>
   </data>
