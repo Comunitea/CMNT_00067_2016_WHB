@@ -4,3 +4,13 @@
     width: 100%;
     line-height: 40px;
 }
+.pos .view-metting-buttom {
+    float: right;
+    color: rgba(255,255,255,0.4);
+    padding: 14px;
+    line-height: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+    font-style: italic;
+    cursor: pointer;
+}

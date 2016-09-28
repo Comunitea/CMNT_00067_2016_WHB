@@ -2,12 +2,19 @@
 <templates id="template" xml:space="preserve">
 
     <t t-name="ViewMettingButton">
-        <span class="control-button order-split">
+        <span class="view-metting-buttom">
             <i class="fa fa-copy"></i>
             View Meetings
         </span>
     </t>
 
+    <t t-name="EventLine">
+        <tr class='client-line' t-att-data-id='event.id'>
+            <td><t t-esc='event.name' /></td>
+            <td><t t-esc='widget.format_date(event.start_date or event.start_datetime)' /></td>
+            <td><t t-esc='event.stop_date or event.stop_datetime' /></td>
+        </tr>
+    </t>
 
     <t t-name="ViewMeetingScreenWidget">
         <div class='meetinglist-screen screen'>
@@ -30,26 +37,12 @@
                                         <thead>
                                             <tr>
                                                 <th>Subjet</th>
-                                                <th>Date</th>
-                                                <th>Duration</th>
+                                                <th>Start Date</th>
+                                                <th>End Date</th>
                                             </tr>
                                         </thead>
-                                        <tbody class='meeting-list-contents'>
-                                            <tr class="meeting-line">
-                                                <td>Probando</td>
-                                                <td>27/09/2016</td>
-                                                <td>1:45</td>
-                                            </tr>
-                                            <tr class="meeting-line">
-                                                <td>Probando 2</td>
-                                                <td>27/09/2016</td>
-                                                <td>1:45</td>
-                                            </tr>
-                                            <tr class="meeting-line">
-                                                <td>Probando 3</td>
-                                                <td>27/09/2016</td>
-                                                <td>1:45</td>
-                                            </tr>
+                                        <tbody class='event-list-contents'>
+                                            
                                         </tbody>
                                     </table>
                                 </div>
