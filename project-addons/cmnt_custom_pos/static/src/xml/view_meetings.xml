@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="ViewMettingButton">
+        <span class="control-button order-split">
+            <i class="fa fa-copy"></i>
+            View Meetings
+        </span>
+    </t>
+
+
+    <t t-name="ViewMeetingScreenWidget">
+        <div class='meetinglist-screen screen'>
+            <div class='screen-content'>
+                <div class='top-content'>
+                    <span class='button back'>
+                        <i class='fa fa-angle-double-left'></i>
+                        Back
+                    </span>
+                    <h1>Meetings</h1>
+                </div>
+
+
+                <div class='full-content'>
+                    <div class='window'>
+                        <section class='subwindow'>
+                            <div class='subwindow-container'>
+                                <div class='subwindow-container-fix touch-scrollable scrollable-y'>
+                                    <table class='meeting-list'>
+                                        <thead>
+                                            <tr>
+                                                <th>Subjet</th>
+                                                <th>Date</th>
+                                                <th>Duration</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class='meeting-list-contents'>
+                                            <tr class="meeting-line">
+                                                <td>Probando</td>
+                                                <td>27/09/2016</td>
+                                                <td>1:45</td>
+                                            </tr>
+                                            <tr class="meeting-line">
+                                                <td>Probando 2</td>
+                                                <td>27/09/2016</td>
+                                                <td>1:45</td>
+                                            </tr>
+                                            <tr class="meeting-line">
+                                                <td>Probando 3</td>
+                                                <td>27/09/2016</td>
+                                                <td>1:45</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </t>
+
+
+</templates>
