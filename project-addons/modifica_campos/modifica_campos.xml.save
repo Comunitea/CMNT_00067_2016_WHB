@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <record model="ir.ui.view" id="modifica_campos_campo">
+        <field name="name">res.partner.form</field>
+        <field name="model">res.partner</field>
+<field name="inherit_id" ref="res.partner" />
+        <field name="arch" type="xml">
+            <xpath expr="/form/sheet/group/group[2]/field[@name='partner_id']" position="after">
+                <field name="cliente_dni" />
+            </xpath>
+        </field>
+    </record>
+  </data>
+</openerp>

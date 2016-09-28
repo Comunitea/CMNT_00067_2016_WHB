@@ -1,3 +1,2 @@
-window.load()=function(){
-	alert('hello world jose');
-}
+$(document).ready(function(){
+});
