@@ -8,6 +8,6 @@ class ResUsers(models.Model):
     _inherit = 'res.users'
 
     x_warehouse_ids = \
-        fields.Many2many('res.users',
+        fields.Many2many('stock.warehouse',
                          'x_stock_warehouse_res_users_x_warehouse_ids_rel',
-                         'id2', 'id1', string='Allowed warehouses')
+                         'id1', 'id2', string='Allowed warehouses')
