@@ -1,0 +1,261 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* cmnt_nutritional_clinic_history
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-30 12:36+0000\n"
+"PO-Revision-Date: 2016-09-30 12:36+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,weight_20:0
+msgid "20 years weight"
+msgstr "Peso a los 20 años"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,age_weight:0
+msgid "Age gain weight"
+msgstr "Edad en que se comenzó a ganar peso"
+
+#. module: cmnt_nutritional_clinic_history
+#: view:res.partner:cmnt_nutritional_clinic_history.view_partner_form
+msgid "Alimentary Query"
+msgstr "Encuesta alimentaria"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,anxiety:0
+msgid "Anxiety"
+msgstr "Ansiedad"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,arterial_hypertension:0
+#: field:res.partner,family_arterial_hypertension:0
+msgid "Arterial Hypertension"
+msgstr "Hipertensión arterial"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,basal_energy:0
+msgid "Basal energy expenditure"
+msgstr "Gasto energético basal (Kcal)"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,big_eating:0
+msgid "Big eating"
+msgstr "Ingesta de grandes cantidades"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,birth_weight:0
+msgid "Birth weight"
+msgstr "Peso al nacimiento"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,blood_pressure:0
+msgid "Blood Presure"
+msgstr "Tensión arterial (mm/Hg)"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,bmi:0
+msgid "Body mass index"
+msgstr "Indice masa corporal (Kg/m²)"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,boimpe:0
+msgid "Boimpedanciometric"
+msgstr "Boimpedanciometria"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,consume_slim_down:0
+msgid "Consume Slim products"
+msgstr "Consumo o no de de productos para adelgazar"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,contour_waist:0
+msgid "Contour waist"
+msgstr "Contorno cintura (cm)"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,current_medication:0
+msgid "Current Medication"
+msgstr "Medicación actual"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,depresion:0
+msgid "Depresion"
+msgstr "Depresión"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,diabetes_mellitus:0
+#: field:res.partner,family_diabetes_mellitus:0
+msgid "Diabetes Mellitus"
+msgstr "Diabetes Mellitus"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,regime_done:0
+msgid "Done previoous regime"
+msgstr "Realización de régimenes para adelgazar previos"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,dyslipidemia:0
+#: field:res.partner,familty_dyslipidemia:0
+msgid "Dyslipidemia"
+msgstr "Dislipemias"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,eating_behavior_disorder:0
+msgid "Eating Behavior Disorder"
+msgstr "Trastornos de la conducta alimentaria"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,eat_picking:0
+msgid "Exists Picking"
+msgstr "Existe picoteo"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,eat_anxiety:0
+msgid "Exists eat anxiety"
+msgstr "Existe ansiedad con la comida"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,family_obesity:0
+msgid "Family Obesity"
+msgstr "Obesidad Familiar"
+
+#. module: cmnt_nutritional_clinic_history
+#: view:res.partner:cmnt_nutritional_clinic_history.view_partner_form
+msgid "Family history"
+msgstr "Antecedentes familiares"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,gain_weight:0
+msgid "Gain weight pregnancies"
+msgstr "Ganancia de peso en embarazo o posparto"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,gestacional_diabetes:0
+msgid "Gestacional Diabetes"
+msgstr "Diabetes Gestacional"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,hepatic_steatosis:0
+msgid "Hepatic Stealosis"
+msgstr "Esteatosis hepática"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,hide_eating:0
+msgid "Hide eating"
+msgstr "Come a escondidas"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,intestinal_rhythm:0
+msgid "Intestinal Rhytm"
+msgstr "Ritmo intestinal"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,max_weight:0
+msgid "Max weight"
+msgstr "Peso máximo"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,menopause:0
+msgid "Menopause"
+msgstr "Menopausia"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,num_pregnancies:0
+msgid "Num pregnancies"
+msgstr "Nº embarazos, abortos e hijos"
+
+#. module: cmnt_nutritional_clinic_history
+#: view:res.partner:cmnt_nutritional_clinic_history.view_partner_form
+msgid "Nutriotional Clinic History"
+msgstr "Historia clínica nutricional"
+
+#. module: cmnt_nutritional_clinic_history
+#: view:res.partner:cmnt_nutritional_clinic_history.view_partner_form
+msgid "Nutritional history"
+msgstr "Antecedentes nutricionales"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,osteoarthritis:0
+msgid "Osteoarthritis"
+msgstr "Artrosis"
+
+#. module: cmnt_nutritional_clinic_history
+#: model:ir.model,name:cmnt_nutritional_clinic_history.model_res_partner
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: cmnt_nutritional_clinic_history
+#: view:res.partner:cmnt_nutritional_clinic_history.view_partner_form
+msgid "Personal history"
+msgstr "Antecedentes personales"
+
+#. module: cmnt_nutritional_clinic_history
+#: view:res.partner:cmnt_nutritional_clinic_history.view_partner_form
+msgid "Physical exploration"
+msgstr "Exploración física"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,food_query:0
+msgid "Remainder 24h"
+msgstr "Recordatorio 24h"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,saos:0
+msgid "SAOS"
+msgstr "SAOS"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,sop:0
+msgid "SOP"
+msgstr "SOP (Síndrome de Ovario Poliquístico)"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,size:0
+msgid "Size"
+msgstr "Talla (m)"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,family_sleep_apnea:0
+msgid "Sleep Apnea"
+msgstr "Apnea del sueño"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,sons_birth_weight:0
+msgid "Sons Birth weight"
+msgstr "Peso máximo de los hijos al nacimiento"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,cause_weight:0
+msgid "Subjective cause gain weight"
+msgstr "Causa subjetiva de ganacia de peso"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,family_thyroid_disease:0
+#: field:res.partner,thyroid_disease:0
+msgid "Thyroid Disease"
+msgstr "Tiroidopatías"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,toxic_habits:0
+msgid "Toxic Habits"
+msgstr "Hábitos tóxicos"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,weight:0
+msgid "Weight"
+msgstr "Peso (kg)"
+
+#. module: cmnt_nutritional_clinic_history
+#: field:res.partner,weight_up_down:0
+msgid "Weight up and down"
+msgstr "Si ha subido o bajado de peso"
+

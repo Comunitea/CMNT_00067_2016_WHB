@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_partner_form" model="ir.ui.view">
+            <field name="name">res.partner.form-cmnt_nutritional</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page string="Nutriotional Clinic History">
+                        <group>
+                            <group string="Personal history">
+                                <field name="diabetes_mellitus"/>
+                                <field name="arterial_hypertension"/>
+                                <field name="dyslipidemia"/>
+                                <field name="saos"/>
+                                <field name="osteoarthritis"/>
+                                <field name="depresion"/>
+                                <field name="anxiety"/>
+                                <field name="sop"/>
+                                <field name="eating_behavior_disorder"/>
+                                <field name="thyroid_disease"/>
+                                <field name="hepatic_steatosis"/>
+                                <field name="toxic_habits"/>
+                                <field name="current_medication"/>
+                            </group>
+                            <group string="Family history">
+                                <field name="family_obesity"/>
+                                <field name="family_diabetes_mellitus"/>
+                                <field name="family_arterial_hypertension"/>
+                                <field name="familty_dyslipidemia"/>
+                                <field name="family_sleep_apnea"/>
+                                <field name="family_thyroid_disease"/>
+                            </group>
+                            <group string="Nutritional history">
+                                <field name="birth_weight"/>
+                                <field name="weight_20"/>
+                                <field name="max_weight"/>
+                                <field name="age_weight"/>
+                                <field name="cause_weight"/>
+                                <field name="regime_done"/>
+                                <field name="consume_slim_down"/>
+                                <field name="weight_up_down"/>
+                                <field name="eat_anxiety"/>
+                                <field name="eat_picking"/>
+                                <field name="hide_eating"/>
+                                <field name="big_eating"/>
+                                <field name="intestinal_rhythm"/>
+                                <field name="num_pregnancies"/>
+                                <field name="sons_birth_weight"/>
+                                <field name="gain_weight"/>
+                                <field name="gestacional_diabetes"/>
+                                <field name="menopause"/>
+                            </group>
+                            <group string="Physical exploration">
+                                <field name="blood_pressure"/>
+                                <field name="weight"/>
+                                <field name="size"/>
+                                <field name="bmi"/>
+                                <field name="basal_energy"/>
+                                <field name="contour_waist"/>
+                                <field name="boimpe"/>
+                            </group>
+                             <group string="Alimentary Query">
+                                <field name="food_query" nolabel="1"/>
+                            </group>
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+    </data>
+</openerp>
