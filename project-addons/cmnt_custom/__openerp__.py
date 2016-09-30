@@ -19,6 +19,7 @@
     ],
     "data": [
         'views/res_user_view.xml',
+        'views/product_view.xml',
     ],
     "demo": [
     ],
