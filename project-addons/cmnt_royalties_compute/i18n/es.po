@@ -1,0 +1,233 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* cmnt_royalties_compute
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-04 14:45+0000\n"
+"PO-Revision-Date: 2016-10-04 14:45+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cmnt_royalties_compute
+#: field:royalty,amount:0
+msgid "Amount"
+msgstr "Importe"
+
+#. module: cmnt_royalties_compute
+#: model:ir.model,name:cmnt_royalties_compute.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:10
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "April"
+msgstr "Abril"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:11
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "August"
+msgstr "Agosto"
+
+#. module: cmnt_royalties_compute
+#: model:ir.ui.menu,name:cmnt_royalties_compute.calc_royalties_wzd_menu
+msgid "Calc Royalties"
+msgstr "Calcular royalties"
+
+#. module: cmnt_royalties_compute
+#: view:calc.royalties.wzd:cmnt_royalties_compute.calc_royalties_wzd_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: cmnt_royalties_compute
+#: field:royalty,contract_id:0
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: cmnt_royalties_compute
+#: view:account.analytic.account:cmnt_royalties_compute.view_account_analytic_account_form
+msgid "Contract Information"
+msgstr "Información del contrato"
+
+#. module: cmnt_royalties_compute
+#: field:calc.royalties.wzd,create_uid:0
+#: field:royalty,create_uid:0
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: cmnt_royalties_compute
+#: field:calc.royalties.wzd,create_date:0
+#: field:royalty,create_date:0
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:13
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "December"
+msgstr "Diciembre"
+
+#. module: cmnt_royalties_compute
+#: field:calc.royalties.wzd,display_name:0
+#: field:royalty,display_name:0
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:10
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "February"
+msgstr "Febrero"
+
+#. module: cmnt_royalties_compute
+#: field:calc.royalties.wzd,id:0
+#: field:royalty,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:10
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "January"
+msgstr "Enero"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:11
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "July"
+msgstr "Julio"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:11
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "June"
+msgstr "Junio"
+
+#. module: cmnt_royalties_compute
+#: field:calc.royalties.wzd,__last_update:0
+#: field:royalty,__last_update:0
+msgid "Last Modified on"
+msgstr "Última modificacion en"
+
+#. module: cmnt_royalties_compute
+#: field:calc.royalties.wzd,write_uid:0
+#: field:royalty,write_uid:0
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: cmnt_royalties_compute
+#: field:calc.royalties.wzd,write_date:0
+#: field:royalty,write_date:0
+msgid "Last Updated on"
+msgstr "Última actualización pel"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:10
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "March"
+msgstr "Marzo   "
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:11
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "May"
+msgstr "Mayo"
+
+#. module: cmnt_royalties_compute
+#: field:royalty,name:0
+msgid "Name"
+msgstr "Nombre"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:12
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "November"
+msgstr "Noviembre"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:12
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "October"
+msgstr "Octubre"
+
+#. module: cmnt_royalties_compute
+#: view:account.analytic.account:cmnt_royalties_compute.view_account_analytic_account_form
+msgid "Options"
+msgstr "Opciones"
+
+#. module: cmnt_royalties_compute
+#: view:calc.royalties.wzd:cmnt_royalties_compute.calc_royalties_wzd_view
+msgid "Royaltiens Calculation"
+msgstr "Colcular Royalties"
+
+#. module: cmnt_royalties_compute
+#: view:account.analytic.account:cmnt_royalties_compute.view_account_analytic_account_form
+#: field:account.analytic.account,royalty_ids:0
+msgid "Royalties"
+msgstr "Royalties"
+
+#. module: cmnt_royalties_compute
+#: view:account.analytic.account:cmnt_royalties_compute.view_account_analytic_account_form
+msgid "Royalties Hystory"
+msgstr "Historial royalties"
+
+#. module: cmnt_royalties_compute
+#: view:calc.royalties.wzd:cmnt_royalties_compute.calc_royalties_wzd_view
+#: model:ir.actions.act_window,name:cmnt_royalties_compute.action_calc_royalties_wzd
+msgid "Royalty Calculation"
+msgstr "Cálculo royalties"
+
+#. module: cmnt_royalties_compute
+#: field:account.analytic.account,royalty_per:0
+msgid "Royalty Percentage"
+msgstr "Pórcentage de royalty"
+
+#. module: cmnt_royalties_compute
+#: field:calc.royalties.wzd,month:0
+#: field:royalty,month:0
+msgid "Select Month"
+msgstr "Selecciona el mes"
+
+#. module: cmnt_royalties_compute
+#: code:addons/cmnt_royalties_compute/wizard/calc_royalties_wzd.py:12
+#: selection:calc.royalties.wzd,month:0
+#: selection:royalty,month:0
+#, python-format
+msgid "September"
+msgstr "Septiembre"
+
+#. module: cmnt_royalties_compute
+#: field:account.analytic.account,calc_royalties:0
+msgid "Subject to Royalties"
+msgstr "Sujeto a royalties"
+

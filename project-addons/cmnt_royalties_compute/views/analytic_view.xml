@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- Inherited Analytic Account list for contracts -->
+        <record id="view_account_analytic_account_form" model="ir.ui.view">
+            <field name="name">cmnt.royalties.analytic.analytic.account.form</field>
+            <field name="model">account.analytic.account</field>
+            <field name="inherit_id" ref="analytic.view_account_analytic_account_form"/>
+            <field name="arch" type="xml">
+                <page string="Contract Information" position="after">
+                    <page string="Royalties">
+                        <group string="Options">
+                            <field name="calc_royalties"/>
+                            <field name="royalty_per"/>
+                        </group>
+                        <group string="Royalties Hystory">
+                            <field name="royalty_ids" nolabel="1">
+                                <tree>
+                                    <field name="create_date" readonly="True"/>
+                                    <field name="month"/>
+                                    <field name="amount"/>
+                                </tree>
+                                <form>
+                                    <group>
+                                        <field name="create_date" readonly="True"/>
+                                        <field name="month"/>
+                                        <field name="amount"/>
+                                    </group>
+                                </form>
+                            </field>
+                        </group>
+                    </page>
+                </page>
+            </field>
+        </record>
+    </data>
+</openerp>
