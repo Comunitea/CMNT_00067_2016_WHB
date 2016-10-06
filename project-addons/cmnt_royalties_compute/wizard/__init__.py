@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
 # © 2016 Comunitea - Javier Colmenero <javier@comunitea.com>
 # License AGPL-3 - See http://www.gnu.org/licenses/agpl-3.0.html
-import res_user
-import product
-import product
-import point_of_sale
-import sale
+import calc_royalties_wzd

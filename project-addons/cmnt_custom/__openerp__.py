@@ -20,6 +20,8 @@
     "data": [
         'views/res_user_view.xml',
         'views/product_view.xml',
+        'views/point_of_sale_view.xml',
+        'views/sale_view.xml',
     ],
     "demo": [
     ],

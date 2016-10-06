@@ -10,12 +10,16 @@
     'license': 'AGPL-3',
     'depends': [
         'base',
+        'analytic',
+        'account_analytic_analysis'
     ],
     'contributors': [
         "Comunitea ",
         "Javier Colmenero <javier@comunitea.com>"
     ],
     "data": [
+        'views/analytic_view.xml',
+        'wizard/calc_royalties_wzd_view.xml'
     ],
     "demo": [
     ],

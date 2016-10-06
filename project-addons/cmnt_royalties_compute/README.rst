@@ -3,10 +3,10 @@
    :alt: License: AGPL-3
 
 ==================
-Stock transfer UoS
+CMNT Royalties Compute
 ==================
 
-Compute royalties based on purchases
+Compute royalties based on sales.
 
 
 Credits
