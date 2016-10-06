@@ -1,3 +1,9 @@
+		.media-object{
+			display:none !important;
+		}
+		.js_payment{
+		    margin-top: 20px;
+		}
 
 			    body {
 			        color: #9c9c9c !important;
@@ -12,11 +18,17 @@
 			    }
 
 			    @import 'https://fonts.googleapis.com/css?family=Open+Sans';
-
+	
+		.carousel-control{
+		    background-image: none !important;
+		}
                 
                 a {
                     color: #67872D !important;
                 }
+		.js_sale{
+			
+		}
                 
                 .navbar-default .navbar-nav>li>a{
                 padding-left:0px;
@@ -31,7 +43,7 @@
                     height: auto !important;
                 }
                 
-                footer,.oe_structure section:first-child{
+                footer,.descripcion_categoria{
                     background: #719430 url(//globaldiet.es/wp-content/themes/enfold/images/background-images/floral-dark.png) top center repeat scroll !important;
                 }
                 
@@ -40,7 +52,7 @@
                     font-weight: bold;
                 }
                 
-                footer a, footer a:hover, footer span, footer p, footer i,.oe_structure section:first-child{
+                footer a, footer a:hover, footer span, footer p, footer i,.descripcion_categoria{
                     color: #f3ffde !important;
                     text-decoration: none !important;
                 }
@@ -62,7 +74,7 @@
                 .collapse.navbar-collapse.navbar-top-collapse ul li a span {
                     font-size: 12px !important;
                     color: #a8a6a6;
-                    font-weight: 600;
+                    /*font-weight: 600;*/
                 }
                 
                 .collapse.navbar-collapse.navbar-top-collapse ul li a span:hover {
@@ -110,11 +122,21 @@
                     height: 2
                     
                 }
-				
+		.nav-tabs > li > a { border: 0px solid transparent;}
+		
                 
                 .oe_product_image img, img.img.img-responsive.product_detail_img{
                     width: auto !important;
                     height: auto !important;
+                }
+                .oe_product .oe_product_image img {
+                    margin: initial!important;
+                }
+                .oe_product .oe_product_image {
+                    left: 40px!important;
+                    right: 40px!important;
+                    top: 15px!important;
+                    bottom: 70px!important;
                 }
                     
                 .oe_product.oe_grid.oe-height-2 {
@@ -131,10 +153,12 @@
 					background-color: white;
 					border: 2px solid #E7E7E7;
 					width: 93% !important;
-					height: 93% !important;
+					height: 98% !important;
 					border-radius:5px;
 				}
 				
+                .oe_product_cart h5{margin-bottom: 0px!important;}
+                .oe_product_cart .oe_subdescription{margin-bottom: 6px!important;}
                 
                 .rrsshome{
                     float: right !important;
@@ -165,6 +189,8 @@
                 ul#top_menu .divider{
                     margin-right: 10px !important;
                 }
+		ul#top_menu{width:100%;}
+		ul#top_menu > li:last-child{float: right;}
                 
                 .btn-primary {
                     color: #fff !important;
@@ -264,11 +290,11 @@
                 }
 
                 ul.nav.nav-pills.nav-stacked.mt16 li:first-child {
-                        font-weight: bolder !important;
-			font-size: 1.2em !important;			
+                        /* font-weight: bolder !important;
+			    font-size: 1.2em !important;	*/		
                 }
 		.js_sale h3{
-			margin-left:2% !important;
+			/* margin-left:2% !important; */
 		}				
 				
 		.product_price{
@@ -279,13 +305,20 @@
 			width: 60%;
 			margin-right: 5%;
 		}			
-		.breadcrumb{
-			background-color:white !important;
-		}		
 		.comment{
-			width:125% !important;
+			/* width:125% !important; */
 		}
 
-
+		.breadcrumb,.nav-tabs > li,.nav-tabs  li.active a{
+                        background-color:white !important;
+                }
+		.product_detail_img{
+			margin-bottom:30px;		
+		}
+		.clase_producto{
+    			margin-top: -10px !important;
+			background-color:white !important;
+		}
+		
 }
 

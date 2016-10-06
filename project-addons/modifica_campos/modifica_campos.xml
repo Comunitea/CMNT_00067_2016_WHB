@@ -15,5 +15,44 @@
             </page>
         </field>
     </record>
+
+    <!-- Records para el campo Descripcion Corta de producto -->
+    
+    <record model="ir.ui.view" id="add_field_product_tree">              
+         <field name="name">add.field.product.tree</field>  
+         <field name="model">product.template</field>     
+         <field name="inherit_id" ref="product.product_template_tree_view"/>
+         <field name="arch" type="xml">
+            <xpath expr="//field[@name='type']" position="after"> 
+                <field name="short_summary"/>
+            </xpath>
+         </field>
+     </record>
+   
+     <record model="ir.ui.view" id="add_field_product_form">    
+      <field name="name">add.field.product.form</field>    
+      <field name="model">product.template</field>     
+      <field name="inherit_id" ref="product.product_template_only_form_view"/>
+      <field name="arch" type="xml">
+          <xpath expr="//field[@name='type']" position="after"> 
+                <field name="short_summary"/>
+          </xpath>
+      </field>
+     </record>  
+
+     <!-- Records para el campo Descripcion de categorias del producto -->
+     <!-- Esta devolviendo error en product.public.category -->
+
+     <record model="ir.ui.view" id="add_field_product_category_form">
+      <field name="name">add.field.product.category.form</field>    
+      <field name="model">product.public.category</field>     
+      <field name="inherit_id" ref="website_sale.product_public_category_form_view"/>
+      <field name="arch" type="xml">
+          <xpath expr="//field[@name='sequence']" position="after"> 
+                <field name="short_description"/>
+          </xpath>
+      </field>
+     </record> 
+
   </data>
 </openerp>
