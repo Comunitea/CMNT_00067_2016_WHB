@@ -19,7 +19,8 @@
     ],
     "data": [
         'views/analytic_view.xml',
-        'wizard/calc_royalties_wzd_view.xml'
+        'wizard/calc_royalties_wzd_view.xml',
+        'security/ir.model.access.csv',
     ],
     "demo": [
     ],
