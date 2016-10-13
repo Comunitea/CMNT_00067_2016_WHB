@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- © 2016 Comunitea
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+<openerp>
+    <data>
+
+ <record id="view_print_expiry_wzd" model="ir.ui.view">
+            <field name="name">View Expiry</field>
+            <field name="model">print.expiry.wzd</field>
+            <field name="arch" type="xml">
+                <form string="Choose your days">
+                    <group>
+                        <field name="company_id"/>
+                        <field name="days"/>
+                    </group>
+                    <footer>
+                        <button name="view_expiry" string="View Expiry" type="object"  class="oe_highlight"  />
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+        <record id="action_print_expiry_wzd" model="ir.actions.act_window">
+            <field name="name">View Expiry</field>
+            <field name="res_model">print.expiry.wzd</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_print_expiry_wzd"/>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem name="Calc Product Expiry" parent="stock.next_id_61" sequence="20"
+            action="action_print_expiry_wzd" id="menu_print_expiry_wzd"/>
+
+    </data>
+</openerp>

@@ -19,8 +19,9 @@
     ],
     "data": [
         'views/stock_production_lot.xml',
-        'views/product.xml',
+        # 'views/product.xml',
         'views/product_expiry_alert.xml',
-        'security/ir.model.access.csv'
+        'security/ir.model.access.csv',
+        'wizard/print_expiry_wzd_view.xml'
     ],
 }

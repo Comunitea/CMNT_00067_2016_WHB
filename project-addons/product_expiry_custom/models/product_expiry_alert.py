@@ -11,12 +11,16 @@ class ProductExpiryAlert(models.Model):
     _auto = False
 
     name = fields.Many2one('stock.production.lot')
-    alert_date = fields.Datetime()
     life_date = fields.Datetime()
-    product = fields.Many2one('product.product')
+    product_id = fields.Many2one('product.product')
+    company_id = fields.Many2one('res.company',)
 
     def init(self, cr):
         tools.drop_view_if_exists(cr, self._table)
-        cr.execute("""CREATE VIEW product_expiry_alert AS (
-SELECT id, id as name, life_date, alert_date, product_id as product
-FROM stock_production_lot WHERE alert_date < now())""")
+        cr.execute(
+            """CREATE VIEW product_expiry_alert AS (
+            select spl.id, spl.id as name, spl.life_date, spl.product_id,
+                   pt.company_id
+            from stock_production_lot spl
+            inner join product_product pp on spl.product_id = pp.id
+            inner join product_template pt on pp.product_tmpl_id = pt.id)""")

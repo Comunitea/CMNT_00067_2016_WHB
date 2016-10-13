@@ -12,9 +12,8 @@
             <field name="arch" type="xml">
                 <tree string="Product expiry alert">
                     <field name="name"/>
-                    <field name="alert_date"/>
+                    <field name="product_id"/>
                     <field name="life_date"/>
-                    <field name="product"/>
                 </tree>
             </field>
         </record>
@@ -25,7 +24,7 @@
             <field name="type">search</field>
             <field name="arch" type="xml">
                 <search>
-                    <field name="product"/>
+                    <field name="product_id"/>
                     <group expand="0" string="Group By">
                         <filter string="Product" icon="terp-accessories-archiver" domain="[]" context="{'group_by':'product'}"/>
                     </group>

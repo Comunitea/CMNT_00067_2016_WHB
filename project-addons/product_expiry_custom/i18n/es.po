@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#   * product_expiry_custom
+#	* product_expiry_custom
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-19 15:51+0000\n"
-"PO-Revision-Date: 2016-09-19 15:51+0000\n"
+"POT-Creation-Date: 2016-10-13 09:33+0000\n"
+"PO-Revision-Date: 2016-10-13 09:33+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,16 +16,48 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: product_expiry_custom
-#: field:product.expiry.alert,alert_date:0
-msgid "Alert date"
-msgstr "Fecha de alerta"
-
-#. module: product_expiry_custom
 #: field:product.product,available_without_alert:0
 msgid "Available without alert"
 msgstr "Cantidad disponible sin lotes en alerta"
 
 #. module: product_expiry_custom
+#: model:ir.ui.menu,name:product_expiry_custom.menu_print_expiry_wzd
+msgid "Calc Product Expiry"
+msgstr "Próximas caducidades"
+
+#. module: product_expiry_custom
+#: view:print.expiry.wzd:product_expiry_custom.view_print_expiry_wzd
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: product_expiry_custom
+#: view:print.expiry.wzd:product_expiry_custom.view_print_expiry_wzd
+msgid "Choose your days"
+msgstr "Días para caducidad"
+
+#. module: product_expiry_custom
+#: field:print.expiry.wzd,company_id:0
+#: field:product.expiry.alert,company_id:0
+msgid "Company id"
+msgstr "Compañía"
+
+#. module: product_expiry_custom
+#: field:print.expiry.wzd,create_uid:0
+msgid "Created by"
+msgstr "Created by"
+
+#. module: product_expiry_custom
+#: field:print.expiry.wzd,create_date:0
+msgid "Created on"
+msgstr "Created on"
+
+#. module: product_expiry_custom
+#: field:print.expiry.wzd,days:0
+msgid "Days"
+msgstr "Días"
+
+#. module: product_expiry_custom
+#: field:print.expiry.wzd,display_name:0
 #: field:product.expiry.alert,display_name:0
 msgid "Display Name"
 msgstr "Display Name"
@@ -36,14 +68,31 @@ msgid "Group By"
 msgstr "Agrupar"
 
 #. module: product_expiry_custom
+#: help:product.product,wk_point_for_loyalty:0
+msgid "How many loyalty points are given to the customer by product sold."
+msgstr "How many loyalty points are given to the customer by product sold."
+
+#. module: product_expiry_custom
+#: field:print.expiry.wzd,id:0
 #: field:product.expiry.alert,id:0
 msgid "ID"
 msgstr "ID"
 
 #. module: product_expiry_custom
+#: field:print.expiry.wzd,__last_update:0
 #: field:product.expiry.alert,__last_update:0
 msgid "Last Modified on"
 msgstr "Last Modified on"
+
+#. module: product_expiry_custom
+#: field:print.expiry.wzd,write_uid:0
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: product_expiry_custom
+#: field:print.expiry.wzd,write_date:0
+msgid "Last Updated on"
+msgstr "Last Updated on"
 
 #. module: product_expiry_custom
 #: field:product.expiry.alert,life_date:0
@@ -51,14 +100,29 @@ msgid "Life date"
 msgstr "Fecha de caducidad"
 
 #. module: product_expiry_custom
+#: field:product.product,wk_point_for_loyalty:0
+msgid "Loyalty Points"
+msgstr "Loyalty Points"
+
+#. module: product_expiry_custom
 #: field:product.expiry.alert,name:0
 msgid "Name"
 msgstr "Nombre"
 
 #. module: product_expiry_custom
+#: field:product.product,notify_days:0
+msgid "Notice Before End Treatment"
+msgstr "Notificar antes del fin de tratamiento"
+
+#. module: product_expiry_custom
+#: code:addons/product_expiry_custom/wizard/print_expiry_wzd.py:27
+#, python-format
+msgid "Print Expiry"
+msgstr "Ver caducidades"
+
+#. module: product_expiry_custom
 #: model:ir.model,name:product_expiry_custom.model_product_product
 #: view:product.expiry.alert:product_expiry_custom.view_product_expiry_alert_search
-#: field:product.expiry.alert,product:0
 msgid "Product"
 msgstr "Producto"
 
@@ -73,3 +137,30 @@ msgstr "Lotes en alerta por caducidad"
 #: view:product.product:product_expiry_custom.product_view_add_alert_button
 msgid "Product expiry alerts"
 msgstr "Lotes en alerta por caducidad"
+
+#. module: product_expiry_custom
+#: field:product.expiry.alert,product_id:0
+msgid "Product id"
+msgstr "Product id"
+
+#. module: product_expiry_custom
+#: field:product.product,short_summary:0
+msgid "Short Summary"
+msgstr "Short Summary"
+
+#. module: product_expiry_custom
+#: field:product.product,treatment_days:0
+msgid "Treatment Days"
+msgstr "Días de tratamiento"
+
+#. module: product_expiry_custom
+#: model:ir.actions.act_window,name:product_expiry_custom.action_print_expiry_wzd
+#: view:print.expiry.wzd:product_expiry_custom.view_print_expiry_wzd
+msgid "View Expiry"
+msgstr "Ver caducidades"
+
+#. module: product_expiry_custom
+#: view:print.expiry.wzd:product_expiry_custom.view_print_expiry_wzd
+msgid "or"
+msgstr "or"
+
