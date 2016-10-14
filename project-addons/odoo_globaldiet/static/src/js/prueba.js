@@ -2,6 +2,7 @@
 // Red Social Facebook             //
 /////////////////////////////////////
 
+$(".socialNetwork").empty();
 $(".socialNetwork").append("<div id='fb-root'></div>");
 $(".socialNetwork").append('<div class="fb-page" data-href="https://www.facebook.com/globaldiet.es" data-tabs="timeline" data-height="460" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GrupoNuevaDietetica" class="fb-xfbml-parse-ignore"><a href"https://www.facebook.com/globaldiet.es">Globaldiet</a></blockquote></div>');
 (function(d, s, id) {
@@ -33,6 +34,9 @@ $.ajax({
       $title = $xml.find('item').first().find('title').first();
       $description = $xml.find('item').first().find('description').first();
       $url = $xml.find('item').first().find('link');
+
+      $(".blog-title").empty();
+      $(".blog-description").empty();
 
       $(".blog-title").append($title.text());
       $(".blog-description").append($description.text());
