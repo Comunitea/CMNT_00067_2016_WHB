@@ -2,10 +2,10 @@
 <templates id="template" xml:space="preserve">
 
     <t t-name="ViewMettingButton">
-        <span class="view-metting-buttom">
+       <!--  <span class="view-metting-buttom">
             <i class="fa fa-copy"></i>
             View Meetings
-        </span>
+        </span> -->
     </t>
 
     <t t-name="EventLine">

@@ -92,7 +92,7 @@ function openerp_custom_view_meetings(instance, module){
             var self = this;
             this._super();
 
-            // Add View Meetings Buttom
+            // Add View Meetings Buttom, Lo comenté poruqe no quieren las citas
             var view_meeting = $(QWeb.render('ViewMettingButton'));
             view_meeting.appendTo(this.$('.pos-rightheader'));
 
@@ -107,5 +107,15 @@ function openerp_custom_view_meetings(instance, module){
             });
             
         },
+    });
+
+    // Para ocultar el botón de modificar el precio
+    module.NumpadWidget = module.NumpadWidget.extend({
+        start: function(){
+            var self = this;
+            this._super();
+            this.$el.find("button[data-mode='price']").css('visibility', 'hidden')
+        },
+       
     });
 }
