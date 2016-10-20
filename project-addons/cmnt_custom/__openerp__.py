@@ -11,7 +11,8 @@
     'depends': [
         'base',
         'point_of_sale',
-        'crm'
+        'crm',
+        'product',
     ],
     'contributors': [
         "Comunitea ",
